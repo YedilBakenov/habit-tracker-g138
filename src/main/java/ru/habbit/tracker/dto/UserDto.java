@@ -1,6 +1,6 @@
 package ru.habbit.tracker.dto;
 
-import jakarta.persistence.ManyToMany;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 import ru.habbit.tracker.model.City;
 import ru.habbit.tracker.model.Habit;
@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Data
+@Schema(name = "UserSchema")
 public class UserDto {
     private long id;
     private String name;
