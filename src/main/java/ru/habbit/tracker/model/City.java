@@ -4,7 +4,7 @@ package ru.habbit.tracker.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "cities", schema = "tracker")
+@Table(name = "cities", schema = "trackerrr")
 public class City {
 
     @Id
